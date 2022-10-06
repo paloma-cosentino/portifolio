@@ -1,0 +1,60 @@
+@import '../../../src/styles/variable.css';
+
+.myPosts {
+    color: var(--text-color);
+}
+
+.myPosts h1 {
+    background-color: var(--bg-cards);
+
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.myPosts .postResume {
+    background-color: var(--bg-cards);
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.myPosts .image img{
+    width: 128px;
+    height: 128px;
+    border-radius: 100%;
+    border: 2px solid #00FF00;
+
+    margin-bottom: 30px;
+}
+
+.text .titleText {
+    font-size: 18px;
+    font-weight: 700;
+}
+.text .timestamp {
+    font-size: 14px;
+    font-weight: 400;
+}
+.text .resumeText {
+    font-size: 16px;
+    font-weight: 400;
+    
+    margin-top: 28px;
+    margin-bottom: 11px;
+}
+
+.text .hashtags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 14px;
+    font-weight: 400;
+}

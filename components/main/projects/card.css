@@ -1,0 +1,60 @@
+@import '../../../src/styles/variable.css';
+
+.fill {
+    background-color: var(--bg-cards);
+    margin-bottom: 30px;
+    color: var(--text-color);
+    border-radius: 20px;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.cardContenent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.cardContenent .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-between;
+
+    align-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.cardContenent .text {
+    display: flex; 
+    flex-direction: row;
+    margin-top: 10px;
+
+}
+
+.tags,
+ .tags .gitparams,
+  .tags .techTag,
+   .tags .gitparams .stared,
+    .tags .gitparams .forked{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.tags .gitparams{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 16px;
+}
+
+.tags .gitparams svg{
+    margin-right: 5px;
+}

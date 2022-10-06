@@ -1,0 +1,43 @@
+@import "../../../src/styles/variable.css";
+
+.list{
+    min-height: 170px;
+    background-color: var(--bg-cards);
+    color: var(--text-color);
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    border-radius: 20px;
+}
+
+.list h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    align-items: start;
+}
+
+.techList {
+    color: var(--body-bg-color);
+    font-size: 10px;
+    font-weight: 700;
+    
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.techList p {
+    background-color: var(--bg-techs);
+    width: 80px;
+    height: 24px;
+    border-radius: 30px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

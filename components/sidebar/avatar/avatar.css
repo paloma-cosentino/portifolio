@@ -1,0 +1,37 @@
+@import "../../../src/styles/variable.css";
+
+
+.avatar{
+    background-color: var(--bg-cards);
+    color: var(--text-color);
+    padding-block: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.avatar #photo{
+    width: 128px;
+    height: 128px;
+    border-radius: 100%;
+    border: 2px solid #00FF00;
+
+    margin-bottom: 30px;
+}
+
+.avatar h1 {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 29px;
+
+    margin-bottom: 10px;
+}
+
+.avatar p {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+}
